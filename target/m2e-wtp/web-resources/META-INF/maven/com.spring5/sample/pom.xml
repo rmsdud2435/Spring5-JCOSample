@@ -73,6 +73,22 @@
 			<artifactId>jstl</artifactId>
 			<version>1.2</version>
 		</dependency>
+		
+		<!-- jco를 위한 라이브러리 -->
+		<dependency>
+	 		<groupId>com.sap</groupId>
+	 		<artifactId>sapjco</artifactId>
+	 		<version>3.0.11</version>
+			<scope>system</scope>			
+			<systemPath>D:/lib/sapjco3.jar</systemPath>
+		</dependency>
+		
+		<!-- jco에 사용되는 DateUtils를 위한 라이브러리 -->
+		<dependency>
+		    <groupId>org.apache.commons</groupId>
+		    <artifactId>commons-lang3</artifactId>
+		    <version>3.9</version>
+		</dependency>
 
 		<!-- Test -->
 		<dependency>
@@ -87,6 +103,7 @@
 			<version>4.12</version>
 			<scope>test</scope>
 		</dependency>
+
 		<dependency>
 			<groupId>org.xmlunit</groupId>
 			<artifactId>xmlunit-matchers</artifactId>
